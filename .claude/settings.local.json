@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(gh search repos:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl:*)",
+      "Bash(python3 -c:*)",
+      "WebFetch(domain:baidu.com)",
+      "WebFetch(domain:www.baidu.com)",
+      "Bash(git clone:*)",
+      "WebFetch(domain:www.tigerdata.com)",
+      "WebFetch(domain:egghead.io)",
+      "WebFetch(domain:forum.obsidian.md)",
+      "WebFetch(domain:obsidian.rocks)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:obsidian.md)",
+      "WebFetch(domain:vaults.obsidian-community.com)",
+      "WebFetch(domain:twitter.com)",
+      "WebFetch(domain:www.keepproductive.com)",
+      "WebFetch(domain:help.obsidian.md)"
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "706c98e5b3a88098",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d6434187243aad0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5f8af439c64ae0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "欢迎来到 Obsidian 🪨.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "欢迎来到 Obsidian 🪨"
+            }
+          },
+          {
+            "id": "6866a9919bbf867a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LangChain精品课/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ad70a7c6a10de3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9829f7276f894b7",
+        "type": "tabs",
+        "dimension": 68.41517857142857,
+        "children": [
+          {
+            "id": "ea0e40980871ccad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "0d56ff2ba69f7e67",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "9c741cd9b25a33e8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "82d95c17f307016c",
+        "type": "tabs",
+        "dimension": 31.58482142857143,
+        "children": [
+          {
+            "id": "6b39a4af58d1bcc5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 227.5
+  },
+  "right": {
+    "id": "1835ee3d2f1030f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "5509fd0c73185142",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aeaf4f83ffdf7fd6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LangChain精品课/未命名.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "未命名 的大纲"
+            }
+          },
+          {
+            "id": "0399c90596636c9b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 265.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:新建数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "6866a9919bbf867a",
+  "lastOpenFiles": [
+    "算法/双指针/数组分块.md",
+    "LangChain精品课/模型API.md",
+    "算法/双指针/Drawing 2026-02-13 20.51.58.excalidraw.md",
+    "欢迎来到 Obsidian 🪨.md",
+    "个人自动化工具链.md",
+    "算法/双指针",
+    "算法",
+    "教程分享/利用ClaudeCode搭建个人SKILL.md",
+    "教程分享/claude避坑.md",
+    "img/Pasted image 20260213162624.png",
+    "ryf-blog/articles/Improve-Runtime-Type-Safety-with-Branded-Types-in-TypeScript.md",
+    "ryf-blog/articles/its-2026-just-use-postgres.md",
+    "img/Pasted image 20260213162508.png",
+    "img/Pasted image 20260213162352.png",
+    "img/Pasted image 20260213162136.png",
+    "img/Pasted image 20260213161215.png",
+    "img/Pasted image 20260213161117.png",
+    "教程分享",
+    "AI-Learn/访谈&博客/未命名.md",
+    "ryf-blog/resources",
+    "ryf-blog/quotes",
+    "ryf-blog/projects",
+    "ryf-blog/tools",
+    "ryf-blog/articles",
+    "ryf-blog/未命名.md",
+    "ryf-blog/techNews",
+    "ryf-blog",
+    "CLAUDE.md",
+    "UI自动化学习/UI自动化军规/UI自动化军规.md",
+    "AI-Learn/访谈&博客/ClawdBot 创始人：AI 是杠杆，不是替代品.md",
+    "prompt 四周课程学习/惩罚机制.md",
+    "prompt 四周课程学习/提升篇.md",
+    "Redis精品课学习记录/redis三剑客.md",
+    "Redis精品课学习记录/01.Redis特性介绍,应用场景.md",
+    "Redis精品课学习记录/05.Redis单线程模型.md",
+    "Redis精品课学习记录/03.Redis命令.md",
+    "Redis精品课学习记录/02.Redis客户端.md",
+    "Redis精品课学习记录/0.前期.md",
+    "Redis精品课学习记录/04.Redis数据结构/string类型.md",
+    "Redis精品课学习记录/04.Redis数据结构/05.hash数据结构.md",
+    "Redis精品课学习记录/04.Redis数据结构/04.Redis数据结构总览.md",
+    "项目实战练习/大致方向.md",
+    "img/Pasted image 20260208132053.png",
+    "img/Pasted image 20260208131511.png",
+    "img/Pasted image 20260207183905.png",
+    "img/Pasted image 20260207183826.png"
+  ]
+}

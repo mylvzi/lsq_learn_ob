@@ -1,0 +1,9 @@
+{
+  "Components@@tab-autohide": true,
+  "Components@@status-bar-autohide": true,
+  "Components@@Ribbon-autohide": true,
+  "Components@@tab-title-bar-autohide": true,
+  "Appearance-light@@workspace-background-translucent@@light": "#FFFFFF00",
+  "Appearance-light@@card-layout-open-light": true,
+  "Editor@@text-align-justify": true
+}

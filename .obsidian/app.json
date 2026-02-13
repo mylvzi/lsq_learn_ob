@@ -1,0 +1,7 @@
+{
+  "attachmentFolderPath": "img",
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "promptDelete": false,
+  "openBehavior": "file:Welcome"
+}
