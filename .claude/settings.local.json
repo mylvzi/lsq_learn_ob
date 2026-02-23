@@ -18,7 +18,16 @@
       "WebFetch(domain:vaults.obsidian-community.com)",
       "WebFetch(domain:twitter.com)",
       "WebFetch(domain:www.keepproductive.com)",
-      "WebFetch(domain:help.obsidian.md)"
+      "WebFetch(domain:help.obsidian.md)",
+      "WebFetch(domain:leandronsp.com)",
+      "Bash(where claude)",
+      "Bash(claude plugin marketplace add:*)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(gh repo view:*)",
+      "Bash(pip show:*)",
+      "Bash(pip install:*)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ]
   }
 }
