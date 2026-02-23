@@ -184,7 +184,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,10 +200,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f5f8af439c64ae0c",
+  "active": "ea0e40980871ccad",
   "lastOpenFiles": [
-    "项目实战练习/阶段0/必须要掌握的知识.md",
+    "未命名 1.base",
     "算法总结/双指针/数组分块.md",
+    "未命名.base",
+    "项目实战练习/阶段0/必须要掌握的知识.md",
     "个人思考/结构化式思考/前言.md",
     "个人思考/结构化式思考/如何结构化写testcase.md",
     "个人思考/苏格拉底式提问.md",
@@ -223,8 +226,6 @@
     "webclipper/Thread by @0xdeusyu.md",
     "webclipper",
     "Clippings/Thread by @ec12edfae2cb221.md",
-    "lsq_later_read",
-    "Clippings",
     "教程分享/wechat-mp-publisher（微信公众号自动发布SKILL）创建分享.md",
     "img/Pasted image 20260214195213.png",
     "img/Pasted image 20260214195154.png",
@@ -245,7 +246,6 @@
     "ryf-blog/未命名.md",
     "CLAUDE.md",
     "UI自动化学习/UI自动化军规/UI自动化军规.md",
-    "prompt 四周课程学习/惩罚机制.md",
-    "prompt 四周课程学习/提升篇.md"
+    "prompt 四周课程学习/惩罚机制.md"
   ]
 }
