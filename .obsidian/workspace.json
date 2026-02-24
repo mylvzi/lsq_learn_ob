@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法总结/双指针/数组分块.md",
+                "file": "算法总结/双指针/双指针-数组分块.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数组分块"
+              "title": "双指针-数组分块"
             }
           }
         ]
@@ -33,7 +33,6 @@
       {
         "id": "b9829f7276f894b7",
         "type": "tabs",
-        "dimension": 68.41517857142857,
         "children": [
           {
             "id": "ea0e40980871ccad",
@@ -78,12 +77,11 @@
         ]
       },
       {
-        "id": "82d95c17f307016c",
+        "id": "c4ec900ad0fa5d4b",
         "type": "tabs",
-        "dimension": 31.58482142857143,
         "children": [
           {
-            "id": "6b39a4af58d1bcc5",
+            "id": "ff5b888fb9d842dd",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -96,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1835ee3d2f1030f6",
@@ -112,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LangChain精品课/未命名.md",
+                "file": "算法总结/双指针/双指针-数组分块.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "双指针-数组分块 的大纲"
             }
           },
           {
@@ -156,12 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欢迎来到 Obsidian 🪨.md",
+                "file": "算法总结/双指针/双指针-数组分块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "欢迎来到 Obsidian 🪨 的出链列表"
+              "title": "双指针-数组分块 的出链列表"
             }
           },
           {
@@ -178,14 +177,23 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
+          },
+          {
+            "id": "d5c03733c85ed67b",
+            "type": "leaf",
+            "state": {
+              "type": "mp-preview",
+              "state": {},
+              "icon": "eye",
+              "title": "公众号预览"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 646.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,13 +205,17 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "mp-publisher:打开公众号发布": false
     }
   },
-  "active": "ea0e40980871ccad",
+  "active": "d5c03733c85ed67b",
   "lastOpenFiles": [
+    "算法总结/双指针/双指针-数组分块__assets/metadata.json",
+    "算法总结/双指针/双指针-数组分块__assets",
+    "教程分享/wechat-mp-publisher（微信公众号自动发布SKILL）创建分享.md",
+    "算法总结/双指针/双指针-数组分块.md",
     "未命名 1.base",
-    "算法总结/双指针/数组分块.md",
     "未命名.base",
     "项目实战练习/阶段0/必须要掌握的知识.md",
     "个人思考/结构化式思考/前言.md",
@@ -224,9 +236,7 @@
     "个人思考",
     "webclipper/未命名.md",
     "webclipper/Thread by @0xdeusyu.md",
-    "webclipper",
     "Clippings/Thread by @ec12edfae2cb221.md",
-    "教程分享/wechat-mp-publisher（微信公众号自动发布SKILL）创建分享.md",
     "img/Pasted image 20260214195213.png",
     "img/Pasted image 20260214195154.png",
     "img/Pasted image 20260214195021.png",

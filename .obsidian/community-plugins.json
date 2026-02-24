@@ -1,9 +1,9 @@
 [
-  "copy-document-to-mp",
-  "calendar",
   "obsidian-style-settings",
   "easy-typing-obsidian",
   "dataview",
   "obsidian-excalidraw-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "mp-publisher",
+  "calendar"
 ]
