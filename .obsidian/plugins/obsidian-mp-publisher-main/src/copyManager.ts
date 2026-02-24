@@ -1,7 +1,11 @@
 import { Notice } from 'obsidian';
 
 export class CopyManager {
-    private static cleanupHtml(element: HTMLElement): string {
+    /**
+     * Sanitize HTML for WeChat: remove data-* / class / id attributes and serialize.
+     * Shared by clipboard copy and publishing flows.
+     */
+    public static cleanupHtml(element: HTMLElement): string {
         // 创建克隆以避免修改原始元素
         const clone = element.cloneNode(true) as HTMLElement;
 

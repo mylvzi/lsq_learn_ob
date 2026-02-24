@@ -1,7 +1,7 @@
 import { App, MarkdownView, Modal, Notice, Setting, TFile } from 'obsidian';
 import MPPlugin from '../main';
 import { markdownToHtml } from '../converter';
-import { WechatPublisher } from '../publisher/wechat';
+import { CopyManager } from '../copyManager';
 
 // 封面图选择模态框
 export class CoverImageModal extends Modal {
@@ -496,17 +496,58 @@ export class PublishModal extends Modal {
 				return;
 			}
 
-			// 统一使用 markdownToHtml 生成发布用 HTML，避免预览样式与微信展示不一致
-			const content = this.markdownView.getViewData();
-			const settings = this.plugin.settings;
-			const htmlContent = await markdownToHtml(
-				this.app,
-				content,
-				this.markdownView.file?.path || '',
-				false,
-				settings.enableWechatStyle,
-				settings.wechatThemeStyle
-			);
+			// 优先复用预览视图渲染结果，确保与“复制为公众号格式”一致
+			const previewLeaves = this.app.workspace.getLeavesOfType('mp-preview');
+			let htmlContent = '';
+			let contentCleaned = false;
+
+			if (previewLeaves.length > 0) {
+				const previewView = previewLeaves[0].view as any;
+				if (previewView && previewView.previewEl) {
+					const clonedContent = previewView.previewEl.cloneNode(true) as HTMLElement;
+					const contentSection = clonedContent.querySelector('.mp-content-section') as HTMLElement | null;
+
+					if (contentSection) {
+						htmlContent = CopyManager.cleanupHtml(contentSection)
+							.replace(/ xmlns="http:\/\/www\.w3\.org\/1999\/xhtml"/g, '');
+						contentCleaned = true;
+						this.plugin.logger.debug('使用同“复制为公众号格式”过滤后的内容提交流程发布');
+					} else {
+						const serializer = new XMLSerializer();
+						let serializedHtml = '';
+						Array.from(clonedContent.children).forEach((child) => {
+							serializedHtml += serializer.serializeToString(child);
+						});
+						htmlContent = serializedHtml.replace(/ xmlns="http:\/\/www\.w3\.org\/1999\/xhtml"/g, '');
+						this.plugin.logger.warn('未找到 mp-content-section，已回退使用原始序列化结果');
+					}
+				}
+			}
+
+			// 兜底：没有预览则重新渲染 Markdown
+			if (!htmlContent) {
+				this.plugin.logger.warn('未找到预览视图，使用默认渲染');
+				const content = this.markdownView.getViewData();
+				const settings = this.plugin.settings;
+				htmlContent = await markdownToHtml(
+					this.app,
+					content,
+					this.markdownView.file?.path || '',
+					false,
+					settings.enableWechatStyle,
+					settings.wechatThemeStyle
+				);
+			}
+
+			// 若之前未经过“复制为公众号格式”的清洗，则在此统一处理
+			if (!contentCleaned && htmlContent) {
+				const parser = new DOMParser();
+				const doc = parser.parseFromString(htmlContent, 'text/html');
+				const target = (doc.querySelector('.mp-content-section') as HTMLElement) || doc.body;
+				htmlContent = CopyManager.cleanupHtml(target)
+					.replace(/ xmlns="http:\/\/www\.w3\.org\/1999\/xhtml"/g, '');
+				contentCleaned = true;
+			}
 
 			if (platform === 'wechat') {
 				if (!this.plugin.settings.wechatAppId || !this.plugin.settings.wechatAppSecret) {
