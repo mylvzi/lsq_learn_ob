@@ -205,33 +205,31 @@ export class WechatPublisher {
     // 上传单个图片到微信公众号并获取URL
     async uploadImageAndGetUrl(
         imageData: ArrayBuffer,
-        fileName: string
+        fileName: string,
+        forContent: boolean = false
     ): Promise<{ url: string; media_id: string } | null> {
         try {
-            const boundary = '----WebKitFormBoundary' + Math.random().toString(16).substring(2);
-            const blob = new Blob([imageData]);
+            const ext = (fileName.split('.').pop() || '').toLowerCase();
+            const mimeType = ext === 'png'
+                ? 'image/png'
+                : ext === 'gif'
+                    ? 'image/gif'
+                    : 'image/jpeg';
 
-            const formDataHeader = `--${boundary}\r\nContent-Disposition: form-data; name="media"; filename="${fileName}"\r\nContent-Type: image/jpeg\r\n\r\n`;
-            const formDataFooter = `\r\n--${boundary}--`;
+            const blob = new Blob([imageData], { type: mimeType });
+            const formData = new FormData();
+            formData.append('media', blob, fileName);
 
-            const headerArray = new TextEncoder().encode(formDataHeader);
-            const footerArray = new TextEncoder().encode(formDataFooter);
-
-            const combinedBuffer = new Uint8Array(headerArray.length + imageData.byteLength + footerArray.length);
-            combinedBuffer.set(headerArray, 0);
-
-            const imageUint8Array = new Uint8Array(imageData);
-            combinedBuffer.set(imageUint8Array, headerArray.length);
-            combinedBuffer.set(footerArray, headerArray.length + imageData.byteLength);
+            const endpoint = forContent
+                ? 'https://api.weixin.qq.com/cgi-bin/media/uploadimg'
+                : 'https://api.weixin.qq.com/cgi-bin/material/add_material?type=image';
 
             const response = await this.requestWithTokenRetry(async (token) => {
                 return requestUrl({
-                    url: `https://api.weixin.qq.com/cgi-bin/material/add_material?access_token=${token}&type=image`,
+                    url: `${endpoint}${endpoint.includes('?') ? '&' : '?'}access_token=${token}`,
                     method: 'POST',
-                    headers: {
-                        'Content-Type': `multipart/form-data; boundary=${boundary}`
-                    },
-                    body: combinedBuffer.buffer
+                    // requestUrl 会自动设置 multipart/form-data 边界
+                    body: formData
                 });
             });
 
@@ -242,9 +240,10 @@ export class WechatPublisher {
                 throw new Error(response.json.errmsg);
             }
 
+            // uploadimg 不返回 media_id（用于正文图片）；add_material 会返回 media_id（用于封面等）
             return {
                 url: response.json.url,
-                media_id: response.json.media_id
+                media_id: response.json.media_id || ''
             };
         } catch (error) {
             this.logger.error('上传图片失败:', error);
@@ -335,7 +334,7 @@ export class WechatPublisher {
                 const arrayBuffer = bytes.buffer;
 
                 this.logger.debug(`上传生成的图片: ${fileName}`);
-                const uploadResult = await this.uploadImageAndGetUrl(arrayBuffer, fileName);
+                const uploadResult = await this.uploadImageAndGetUrl(arrayBuffer, fileName, true);
                 return uploadResult ? uploadResult.url : null;
             }
 
@@ -353,7 +352,7 @@ export class WechatPublisher {
                         }
 
                         const fileName = imagePath.split('/').pop()?.split('?')[0] || `web_image_${Date.now()}.png`;
-                        const uploadResult = await this.uploadImageAndGetUrl(response.arrayBuffer, fileName);
+                        const uploadResult = await this.uploadImageAndGetUrl(response.arrayBuffer, fileName, true);
 
                         if (!uploadResult) return null;
 
@@ -398,7 +397,7 @@ export class WechatPublisher {
                 const arrayBuffer = await this.plugin.app.vault.readBinary(linkedFile);
 
                 // 上传图片到微信
-                const uploadResult = await this.uploadImageAndGetUrl(arrayBuffer, fileName);
+                const uploadResult = await this.uploadImageAndGetUrl(arrayBuffer, fileName, true);
 
                 if (!uploadResult) return null;
 
@@ -434,6 +433,23 @@ export class WechatPublisher {
 
             // 使用新的 DOM 清理函数
             cleanObsidianUIElements(tempDiv);
+
+            // 去除列表项内部多余的段落包装，避免微信端出现额外空行
+            const listItems = tempDiv.querySelectorAll('li');
+            listItems.forEach(li => {
+                const firstChild = li.firstElementChild;
+                if (li.children.length === 1 && firstChild && firstChild.tagName.toLowerCase() === 'p') {
+                    const p = firstChild as HTMLElement;
+                    while (p.firstChild) {
+                        li.insertBefore(p.firstChild, p);
+                    }
+                    p.remove();
+                } else {
+                    li.querySelectorAll('p').forEach(p => {
+                        (p as HTMLElement).style.margin = '0';
+                    });
+                }
+            });
 
             // 使用XMLSerializer安全地获取HTML内容
             const serializer = new XMLSerializer();
