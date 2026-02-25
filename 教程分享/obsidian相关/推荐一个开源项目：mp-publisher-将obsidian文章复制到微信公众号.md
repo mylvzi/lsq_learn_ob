@@ -15,3 +15,4 @@ Obsidian 打开控制台：
 - **MacOS**：`CMD + OPTION + i`
 - **Linux**：`CTRL + SHIFT + i`
 ![[Pasted image 20260224225704.png]] 发现是 IP 错误，在微信开发平台配置 IP白名单后即可解决
+![[Pasted image 20260225220819.png]]

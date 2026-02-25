@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号.md",
+                "file": "欢迎来到 Obsidian 🪨.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号"
+              "title": "欢迎来到 Obsidian 🪨"
             }
           }
         ]
@@ -192,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 646.5
+    "width": 315.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,46 +210,47 @@
   },
   "active": "f5f8af439c64ae0c",
   "lastOpenFiles": [
+    "UI自动化学习/UI自动化军规/${date}/metadata.json",
+    "UI自动化学习/UI自动化军规/${date}",
+    "UI自动化学习/UI自动化军规/img/metadata.json",
+    "UI自动化学习/UI自动化军规/img",
+    "算法总结/双指针/双指针-数组分块.md",
+    "教程分享/利用ClaudeCode搭建个人SKILL.md",
+    "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号.md",
+    "img/Pasted image 20260225220819.png",
+    "img/Pasted image 20260225220206.png",
+    "img/Pasted image 20260225220143.png",
+    "教程分享/obsidian相关/img/metadata.json",
+    "教程分享/obsidian相关/img",
+    "教程分享/claude避坑.md",
+    "教程分享/wechat-mp-publisher（微信公众号自动发布SKILL）创建分享.md",
     "欢迎来到 Obsidian 🪨.md",
     "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号__assets/metadata.json",
     "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号__assets",
     "img/Pasted image 20260224225704.png",
-    "算法总结/双指针/双指针-数组分块.md",
-    "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号.md",
     "教程分享/obsidian相关",
     "算法总结/双指针/双指针-数组分块__assets/metadata.json",
     "算法总结/双指针/双指针-数组分块__assets",
-    "教程分享/wechat-mp-publisher（微信公众号自动发布SKILL）创建分享.md",
-    "未命名 1.base",
-    "未命名.base",
     "项目实战练习/阶段0/必须要掌握的知识.md",
     "个人思考/结构化式思考/前言.md",
     "个人思考/结构化式思考/如何结构化写testcase.md",
     "个人思考/苏格拉底式提问.md",
-    "个人思考/结构化式思考",
     "开源项目/MapToPoster-用代码将城市地图转换为精美的海报设计.md",
     "img/e571993b292a33de4c4272cc60c0af8.png",
     "img/91354b183e1facc46272944635cf357.png",
     "img/Pasted image 20260223113723.png",
-    "未命名 2",
-    "未命名 1",
     "img/Pasted image 20260222225505.png",
     "webclipper/未命名.md",
     "webclipper/Thread by @0xdeusyu.md",
     "Clippings/Thread by @ec12edfae2cb221.md",
     "img/Pasted image 20260214195213.png",
     "img/Pasted image 20260214195154.png",
-    "img/Pasted image 20260214195021.png",
-    "img/Pasted image 20260214195003.png",
-    "img/Pasted image 20260214191352.png",
-    "教程分享/claude避坑.md",
     "AI-Learn/访谈&博客/未命名.md",
     "AI-Learn/访谈&博客/ClawdBot 创始人：AI 是杠杆，不是替代品.md",
     "LangChain精品课/未命名.md",
     "LangChain精品课/模型API.md",
     "算法/双指针/Drawing 2026-02-13 20.51.58.excalidraw.md",
     "个人自动化工具链.md",
-    "教程分享/利用ClaudeCode搭建个人SKILL.md",
     "ryf-blog/articles/Improve-Runtime-Type-Safety-with-Branded-Types-in-TypeScript.md",
     "ryf-blog/articles/its-2026-just-use-postgres.md",
     "ryf-blog/未命名.md",
