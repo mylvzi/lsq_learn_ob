@@ -1,0 +1,16 @@
+{
+  "images": {
+    "image-20260225144421932.png": {
+      "fileName": "image-20260225144421932.png",
+      "media_id": "NssuWGu2tslcDurCtNnbxc8RCuCGqrQx6ozExRcmzgh_tWD4F5lcGQjJAMbpcnpx",
+      "uploadTime": 1772030670657
+    }
+  },
+  "draft": {
+    "media_id": "NDNjpO3yematDXdV6ty2zb44myLH54E4r7zzpWC6RgV4fTL28NNIxNSQpbN50c-A",
+    "item": [],
+    "title": "如何结构化写testcase",
+    "content": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"wechat-content\" style=\"font-size: 16px; color: #3f3f3f; line-height: 1.75; letter-spacing: 0.05em; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;\"><div><blockquote dir=\"auto\" style=\"margin: 20px 0; padding: 15px 20px; background-color: #f8f8f8; border-left: 3px solid #3eaf7c; color: #666; font-style: italic;\">\n<p style=\"line-height: 1.75; margin: 0;\">看到<a data-tooltip-position=\"top\" aria-label=\"https://testerhome.com/topics/41764\" rel=\"noopener nofollow\" class=\"external-link\" href=\"https://testerhome.com/topics/41764\" target=\"_blank\" style=\"color: #3eaf7c; text-decoration: none; border-bottom: 1px solid #3eaf7c;\">专栏文章 质量保障系统的落地实践 (七)-AI 落地&amp;指标评估 · 测试之家</a> 这篇文章中提到“编写测试用例的流程一般是：<strong style=\"font-weight: bold; color: #2b2b2b;\">将产品需求文档描述的场景需求，翻译为测试点，基于测试点构建测试用例</strong>。”</p>\n</blockquote>\n<p dir=\"auto\" style=\"margin: 15px 0; line-height: 1.75;\">每当接触一个 prd，就按照以下结构思考：</p>\n<pre class=\"language-text\" style=\"margin: 20px 0; padding: 15px; background-color: #f5f5f5; border-radius: 3px; overflow-x: auto; border: 1px solid #e0e0e0;\"><code class=\"language-text is-loaded hljs\" style=\"overflow-x: auto; font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace; font-size: 14px; border-radius: 3px; display: block; padding: 0; background-color: transparent; color: #333; line-height: 1.5;\"><span class=\"hljs-bullet\" style=\"color: #61aeee;\">1.</span> 需求类型：\n<span class=\"hljs-bullet\" style=\"color: #61aeee;\">2.</span> 涉及实体：\n<span class=\"hljs-bullet\" style=\"color: #61aeee;\">3.</span> 状态变化：\n<span class=\"hljs-bullet\" style=\"color: #61aeee;\">4.</span> 核心规则：\n<span class=\"hljs-bullet\" style=\"color: #61aeee;\">5.</span> 高风险点：\n<span class=\"hljs-bullet\" style=\"color: #61aeee;\">6.</span> 下次可复用结构：\n</code></pre>\n<p dir=\"auto\" style=\"margin: 15px 0; line-height: 1.75;\"><img alt=\"image-20260225144421932.png\" class=\"html-preview-image\" src=\"app://8e3d853b6f8d77ecb4a1da1f2cc2e24e69db/C:/Users/%E7%BB%BF%E5%AD%97/Desktop/lsq_learn/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E7%BB%93%E6%9E%84%E5%8C%96%E5%BC%8F%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E7%BB%93%E6%9E%84%E5%8C%96%E5%86%99testcase/image-20260225144421932.png?1772030661936\" style=\"max-width: 100%; height: auto; display: block; margin: 20px auto; border-radius: 3px;\" /></p></div></div></div></div>",
+    "updateTime": 1772030673227
+  }
+}

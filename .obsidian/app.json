@@ -3,5 +3,6 @@
   "alwaysUpdateLinks": true,
   "vimMode": true,
   "promptDelete": false,
-  "openBehavior": "file:欢迎来到 Obsidian 🪨"
+  "openBehavior": "file:欢迎来到 Obsidian 🪨",
+  "newLinkFormat": "absolute"
 }
