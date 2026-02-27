@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目实战练习/k8s/大纲.md",
+                "file": "docker精品课/前言：八大架构演进之路.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大纲"
+              "title": "前言：八大架构演进之路"
             }
           }
         ]
@@ -112,13 +112,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目实战练习/k8s/大纲.md",
+                "file": "docker精品课/前言：八大架构演进之路.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲 的大纲"
+              "title": "前言：八大架构演进之路 的大纲"
             }
           },
           {
@@ -213,8 +213,20 @@
   },
   "active": "f5f8af439c64ae0c",
   "lastOpenFiles": [
-    "教程分享/开源项目/MapToPoster-用代码将城市地图转换为精美的海报设计.md",
+    "img/Pasted image 20260227223859.png",
+    "img/Pasted image 20260227223747.png",
+    "CLAUDE.md",
+    "docker精品课/前言：八大架构演进之路.md",
+    "img/Pasted image 20260227223714.png",
+    "img/Pasted image 20260227223351.png",
+    "img/Pasted image 20260227223213.png",
+    "img/Pasted image 20260227222856.png",
+    "img/Pasted image 20260227222455.png",
+    "img/Pasted image 20260227221910.png",
+    "img/Pasted image 20260227221714.png",
     "项目实战练习/k8s/大纲.md",
+    "docker精品课",
+    "教程分享/开源项目/MapToPoster-用代码将城市地图转换为精美的海报设计.md",
     "项目实战练习/k8s",
     "教程分享/obsidian相关/【个人使用经验】【mp-publisher】【解决图片自动被上传到素材库】.md",
     "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号.md",
@@ -229,35 +241,23 @@
     "个人思考/结构化式思考/如何结构化写testcase__assets/image-20260225144826696.png",
     "个人思考/结构化式思考/如何结构化写testcase__assets",
     "个人思考/结构化式思考/如何结构化写testcase/metadata.json",
-    "个人思考/结构化式思考/如何结构化写testcase/image-20260225144421932.png",
     "个人思考/结构化式思考/如何结构化写testcase",
     "个人思考/结构化式思考/img/metadata.json",
-    "个人思考/结构化式思考/img/image-20260225144033744.png",
     "个人思考/结构化式思考/img",
     "测试相关/测试流程.md",
     "webclipper/Thread by @0xdeusyu.md",
     "webclipper/未命名.md",
-    "CLAUDE.md",
-    "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号__assets/image-20260225143117831.png",
-    "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号/metadata.json",
     "算法总结/双指针/双指针-数组分块.md",
     "教程分享/利用ClaudeCode搭建个人SKILL.md",
-    "img/Pasted image 20260225220819.png",
-    "img/Pasted image 20260225220206.png",
-    "img/Pasted image 20260225220143.png",
     "教程分享/claude避坑.md",
     "教程分享/wechat-mp-publisher（微信公众号自动发布SKILL）创建分享.md",
-    "img/Pasted image 20260224225704.png",
     "项目实战练习/阶段0/必须要掌握的知识.md",
-    "img/e571993b292a33de4c4272cc60c0af8.png",
     "Clippings/Thread by @ec12edfae2cb221.md",
     "AI-Learn/访谈&博客/未命名.md",
     "AI-Learn/访谈&博客/ClawdBot 创始人：AI 是杠杆，不是替代品.md",
     "LangChain精品课/未命名.md",
     "LangChain精品课/模型API.md",
     "算法/双指针/Drawing 2026-02-13 20.51.58.excalidraw.md",
-    "个人自动化工具链.md",
-    "ryf-blog/articles/Improve-Runtime-Type-Safety-with-Branded-Types-in-TypeScript.md",
-    "ryf-blog/articles/its-2026-just-use-postgres.md"
+    "个人自动化工具链.md"
   ]
 }
