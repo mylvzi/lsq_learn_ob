@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "教程分享/obsidian相关/【个人使用经验】【mp-publisher】【解决图片自动被上传到素材库】.md",
+                "file": "项目实战练习/k8s/大纲.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【个人使用经验】【mp-publisher】【解决图片自动被上传到素材库】"
+              "title": "大纲"
             }
           }
         ]
@@ -33,6 +33,7 @@
       {
         "id": "b9829f7276f894b7",
         "type": "tabs",
+        "dimension": 76.22767857142857,
         "children": [
           {
             "id": "ea0e40980871ccad",
@@ -79,6 +80,7 @@
       {
         "id": "c4ec900ad0fa5d4b",
         "type": "tabs",
+        "dimension": 23.772321428571427,
         "children": [
           {
             "id": "ff5b888fb9d842dd",
@@ -94,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 200
   },
   "right": {
     "id": "1835ee3d2f1030f6",
@@ -110,13 +112,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号.md",
+                "file": "项目实战练习/k8s/大纲.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号 的大纲"
+              "title": "大纲 的大纲"
             }
           },
           {
@@ -188,11 +190,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 649.5
+    "width": 372.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,13 +211,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44ec4aba5d5be472",
+  "active": "f5f8af439c64ae0c",
   "lastOpenFiles": [
-    "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号.md",
+    "教程分享/开源项目/MapToPoster-用代码将城市地图转换为精美的海报设计.md",
+    "项目实战练习/k8s/大纲.md",
+    "项目实战练习/k8s",
     "教程分享/obsidian相关/【个人使用经验】【mp-publisher】【解决图片自动被上传到素材库】.md",
+    "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号.md",
     "个人思考/苏格拉底式提问.md",
     "欢迎来到 Obsidian 🪨.md",
-    "教程分享/开源项目/MapToPoster-用代码将城市地图转换为精美的海报设计.md",
     "个人思考/苏格拉底式提问__assets/image-20260225145058533.png",
     "个人思考/苏格拉底式提问__assets/metadata.json",
     "个人思考/苏格拉底式提问__assets",
@@ -235,7 +240,6 @@
     "CLAUDE.md",
     "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号__assets/image-20260225143117831.png",
     "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号/metadata.json",
-    "教程分享/obsidian相关/推荐一个开源项目：mp-publisher-将obsidian文章复制到微信公众号",
     "算法总结/双指针/双指针-数组分块.md",
     "教程分享/利用ClaudeCode搭建个人SKILL.md",
     "img/Pasted image 20260225220819.png",
@@ -254,7 +258,6 @@
     "算法/双指针/Drawing 2026-02-13 20.51.58.excalidraw.md",
     "个人自动化工具链.md",
     "ryf-blog/articles/Improve-Runtime-Type-Safety-with-Branded-Types-in-TypeScript.md",
-    "ryf-blog/articles/its-2026-just-use-postgres.md",
-    "ryf-blog/未命名.md"
+    "ryf-blog/articles/its-2026-just-use-postgres.md"
   ]
 }
